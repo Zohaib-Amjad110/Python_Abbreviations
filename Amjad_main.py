@@ -66,8 +66,7 @@ def process_names_corrected(input_file_path, letter_values):
     filtered_name_abbreviations = {}
     for name, abbreviations in all_name_abbreviations.items():
         filtered_abbreviations = {abbr: score for abbr, score in abbreviations.items() if abbr not in excluded_abbreviations}
-        if  filtered_abbreviations:  # If all abbreviations are excluded, consider all of them again
-         filtered_abbreviations = abbreviations
+        
         min_score = min(filtered_abbreviations.values(),default=0)
         best_abbreviations = [abbr for abbr, score in filtered_abbreviations.items() if score == min_score]
         filtered_name_abbreviations[name] = (best_abbreviations, min_score)
