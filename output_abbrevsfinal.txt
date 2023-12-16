@@ -1,104 +1,104 @@
 Alder
 
 Crab Apple
-CPP
+CAP:10 
 Common Ash
-CAS
+CAS:16 
 Silver Birch
-SVB
+SVB:10 
 Downy Birch
-DYB DBH
+DYB:5 DBH:5 
 European Beech
-EBH
+EBH:5 
 Box
-BOX
+BOX:26 
 Wild Cherry
-WCY
+WCY:5 
 Bird Cherry
-BDC BCY
+BDC:5 BCY:5 
 Blackthorn
-BKN
+BKN:14 
 Wych Elm
-WEM
+WEM:5 
 Smooth-leaved Elm
-SHD SHM
+SHE:10 
 Common Hawthorn
-CHW
+CHW:9 
 Midland Hawthorn
-MHW
+MHW:9 
 Common Hazel
-CHZ
+CHZ:3 
 European Hornbeam
-EHM
+EHM:5 
 European Holly
-EHY
+EHY:5 
 Common Juniper
-CNJ CJR
+CNJ:5 CJR:5 
 Small-leaved Lime
-SDI
+SDI:31 
 Large-leaved Lime
-LDL
+LDL:5 
 Field Maple
-FDM
+FDM:5 
 Pedunculate Oak
-POK
+POK:5 
 Sessile Oak
-SOK
+SOK:5 
 Scots Pine
-SSP
+SSP:5 
 Aspen
-APN
+APN:15 
 Black Poplar
-BPP
+BPP:10 
 European Rowan
-EWN
+EWN:14 
 Common Whitebeam
-CWM
+CWM:5 
 Service Tree
-SVT
+SVT:10 
 Wild Service Tree
-WST
+WST:0 
 Strawberry Tree
-SYT
+SYT:5 
 Bay Willow
-BWW
+BWW:5 
 Crack Willow
-CWW
+CWW:5 
 White Willow
-WWW
+WWW:5 
 Almond-leaved Willow
-AWW
+AWW:5 
 European Yew
-EYW
+EYW:5 
 Alder Buckthorn
-ARB ABN
+ARB:5 ABN:5 
 Purging Buckthorn
-PBN
+PGB:5 PBN:5 
 Elder
-EDR
+EDR:16 
 Common Dogwood
-CDD
+CDD:5 
 Rock Whitebeam
-RKW RWM
+RKW:5 RWM:5 
 Sea-buckthorn
-SKN
+SKN:14 
 Spindle
-SPD
+SPD:21 
 Sallow
-SOW
+SLW:23 
 Grey Willow
-GWW
+GWW:5 
 Purple Willow
-PWW
+PWW:5 
 Common Osier
-CSR
+CSR:21 
 Eared Willow
-EWW
+EWW:5 
 Guelder Rose
-GRR
+GRR:5 
 Wayfaring tree
-WGT
+WGT:5 
 Common Privet
-CPT
+CPT:5 
 Plot's Elm
-PSE PEM
+PSE:5 PEM:5 
