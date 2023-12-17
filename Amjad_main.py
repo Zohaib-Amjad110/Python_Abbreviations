@@ -36,23 +36,25 @@ def get_abbreviation_score(name, abbreviation_indices, letter_values):
 
 # Function to get all possible abbreviations for a name
 def get_all_abbreviations(name, letter_values):
-    name = re.sub(r"[^a-zA-Z\s]", "", name).upper()
-    words = name.split()
-    concatenated_name = "".join(words)
-    abbreviations = combinations(range(1, len(concatenated_name)), 2)
-    abbreviations = [(0, *abbr) for abbr in abbreviations]
-    abbreviation_scores = {
+   name = re.sub(r"[^a-zA-Z\s-]", "", name).upper()
+   name = name.replace('-', ' ')# Replace hyphens with spaces to treat hyphenated words as separate
+   words = name.split()
+   concatenated_name = "".join(words)
+   print(concatenated_name)
+   abbreviations = combinations(range(1, len(concatenated_name)), 2)
+   abbreviations = [(0, *abbr) for abbr in abbreviations]
+   abbreviation_scores = {
         ''.join(concatenated_name[i] for i in abbr): get_abbreviation_score(name, abbr, letter_values)
         for abbr in abbreviations
     }
-    print (abbreviation_scores)
-    return abbreviation_scores
+   print (abbreviation_scores)
+   return abbreviation_scores
 
 # Function to process names and ensure each name has a valid abbreviation listed
 def process_names_corrected(input_file_path, letter_values):
     with open(input_file_path, 'r') as file:
         names = file.read().splitlines()
-
+       
     # Get all possible abbreviations for each name
     all_name_abbreviations = {
         name: get_all_abbreviations(name, letter_values) for name in names
